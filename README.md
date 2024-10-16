@@ -18,7 +18,8 @@ Es folgen einige allgemeine Bedienungshinweise für die Verwendung des BPredicto
 4.  Treffen von Vorhersagen auf Basis trainierter Modelle: Die GUI zum Treffen von Vorhersagen findet sich in Abschnitt 9. Es ist darauf zu achten, den korrekten Modellordner (nicht die models.csv Datei selbst) anzugeben. Bei der Auswahl des zu verwendenden Modells durch ein Dropdown-Menü sind die neuesten Modelle unten zu finden.
 
 5.  Hilfe zum Troubleshooting
-  5.1 Probleme beim Training
+
+    5.1 Probleme beim Training
       - Datei wird nicht gefunden / Beim Klicken von "Datenimport starten" geschieht nichts: Pfad-Feld statt Upload-button benutzen. In Google Colab: Berechtigung zum Zugriff auf Google drive sicherstellen; sichergehen, dass der Pfad auf Google Drive verweist und nicht auf eine lokale Datei (z.B. aus der linken Tool-Leiste kopieren). In Jupyter-Notebooks: Überprüfen, ob versehentlich Anführungszeichen im Dateipfad mit kopiert wurden. Überprüfen, ob es sich um eine .csv-Datei handelt
       - Merkwürdige / Zu wenige In- und Outputparameter zur Auswahl: Spaltentrennzeichen überprüfen
       - Es werden zu viele oder unerwartete aussehende Beispiele für Outputs nach dem Datenimport gezeigt: Benennung der Spalten in den Trainingsdaten überprüfen. Zu kurze Benennungen, z.B. nur einer oder wenige Buchstaben / Zahlen, können zu Dopplungen mit den Werten in der Tabelle führen und die Zuordnung der Spalten stören. Weiterhin prüfen, ob ein kategorialer Wert als Output gewählt wurde. BPredictor ist nur zur Vorhersage kontinuierlicher Outputs geeignet (Kategoriale Inputs hingegen können verarbeitet werden).
@@ -44,6 +45,7 @@ The following are some general operating instructions for using the BPredictor:
 4. making predictions based on trained models: The GUI for making predictions can be found in section 9. care must be taken to specify the correct model folder (not the models.csv file itself). When selecting the model to be used from a drop-down menu, the latest models can be found below.
 
 5 Troubleshooting help
+ 
   5.1 Problems during training
       - File is not found / Nothing happens when clicking on ‘Start data import’: Use the path field instead of the upload button. In Google Colab: Ensure authorisation to access Google drive; make sure that the path refers to Google Drive and not to a local file (e.g. copy from the left toolbar). In Jupyter notebooks: Check whether inverted commas have been accidentally copied in the file path. Check whether the file is a .csv file
       - Strange / Too few input and output parameters to choose from: Check column separators
